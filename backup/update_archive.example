@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\7-Zip\7z.exe" u -t7z -m0=LZMA2 -mmt=on -mx9 -md=64m -mfb=64 -ms=4g -mqs=on -sccUTF-8 "-parchive_password" -bb0 -bse0 -bsp2 "-wC:\Save\" "C:\Save\Documents\Documents.7z" "C:\Users\<USER>\<DIRECTORY_TO_SAVE>"  

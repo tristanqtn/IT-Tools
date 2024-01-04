@@ -1,0 +1,3 @@
+@ECHO OFF
+COPY "C:\Save\Documents\*.axx" "E:\Save\Documents\"
+DEL C:\Save\Documents\*.axx

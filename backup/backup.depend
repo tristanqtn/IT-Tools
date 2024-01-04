@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1704400509 source:c:\users\trist\github\it-tools\backup\main.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+	<thread>
+	<chrono>
+
