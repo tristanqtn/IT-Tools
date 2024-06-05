@@ -88,7 +88,7 @@ function test_internet{
     }
 }
 
-#################### ENVORINMENTS ####################
+#################### ENVIRONMENTS ####################
 function CreatePyVenv {
     # Get the current directory's name
     # Modify the name for the virtual environment
