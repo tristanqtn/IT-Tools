@@ -110,3 +110,15 @@ function CreatePyVenv {
         Write-Error "Failed to enable .venv: $_"
     }
 }
+
+
+#################### PACKAGES ####################
+function ChocoUpgradeAll {
+    # check that you are running as an administrator
+    if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { 
+        Write-Warning "You are not running as an administrator. Please run this script as an administrator."
+        return
+    }
+    # else upgrade all packages
+    choco upgrade all -y
+}
