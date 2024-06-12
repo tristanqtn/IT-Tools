@@ -42,6 +42,18 @@ More information [here](./ChocolateyPackageInstaller/README.md)
 
 More information [here](./EnhancedPowershell/README.md)
 
+### [Git Puller](./GitPuller/)
+
+**Git Puller** is a simple script to run inside the folder containing multiple GitHub repos. This script will, for each repo, pull the latest version of it ot make sure you stay up to date.
+
+More information [here](./GitPuller/README.md)
+
+### [Sys Health Check](./SysHealthCheck/)
+
+**Sys Health Check** is a script to run in order to obtain the current ressources usage on your device. This script returns you the CPU usage and the amount of used and free space in your RAM and disk.
+
+More information [here](./SysHealthCheck/README.md)
+
 ## Usage
 
 For each tool, you will find specific instructions on usage in their respective directories. Make sure to follow the provided documentation to integrate these tools into your workflow effectively.
