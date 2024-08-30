@@ -22,7 +22,7 @@ Feel free to explore and use these tools in your own projects or workflows. Cont
 
 **Backup Maker** is a versatile command-line utility designed to automate and secure your file backup process. It seamlessly integrates with 7Zip and AxCrypt, creating a two-layered protection system. The tool first generates a 7Zip archive, securing it with a user-defined password. Subsequently, the archive is encrypted using AxCrypt with a second password. The program then ensures the safe transfer of this encrypted backup to an external SSD, designated with the letter 'E:'. Additionally, it takes care of safeguarding a password vault, providing a comprehensive solution for data protection. Personalization options allow users to adapt the tool to their specific directory structures, offering a streamlined and efficient approach to data backup in IT workflows.
 
-More information [here](./BackupMaker//README.md)
+More information [here](./BackupMaker/new/README.md)
 
 ### [Auto Updater](./AutoUpdater/)
 
